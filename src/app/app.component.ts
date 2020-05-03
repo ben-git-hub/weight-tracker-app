@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
 
   title = 'angular-weight-app';
 
-  weight: Weight[];
+ weight: [];
 
   constructor(private dataService: DataService) {}
   ngOnInit(): void  {
