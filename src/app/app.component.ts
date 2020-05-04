@@ -10,7 +10,7 @@ import { DataService } from './services/data.service';
 
 export class AppComponent implements OnInit {
 
-  title = 'angular-weight-app';
+  title = 'Angular Weight App';
 
  weight: [];
 
