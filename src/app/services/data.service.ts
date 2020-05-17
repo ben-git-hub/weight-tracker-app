@@ -11,7 +11,8 @@ export class DataService {
 
 
 getData() {
-  return this.http.get<any>('https://weightmonitor.azurewebsites.net/');
+  //return this.http.get<any>('https://weightmonitor.azurewebsites.net/');
+  return this.http.get<any>('http://localhost:8080');
 }
 
 }

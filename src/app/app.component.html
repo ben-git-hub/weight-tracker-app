@@ -337,10 +337,17 @@
     </svg>
 
   </div>
+  
+  <button *ngIf="!loggedIn" (click)="login()">Login</button>
+  <button *ngIf="loggedIn" (click)="logout()">Logout</button>
+
+  <h2 *ngIf="loggedIn">Welcome {{ user }}</h2>
+
+  <button *ngIf="loggedIn" (click)="getWeightData()">Get Weight Data</button>
 
   <!-- Resources -->
   <h2>Weight Snapshots</h2>
-  <ul>
+  <ul *ngIf="weight && weight.length > 0">
     <li *ngFor="let weight of weight ">
         <h3>Date: {{weight.date}}</h3>
         <ul>
