@@ -38,7 +38,7 @@ const isIE = window.navigator.userAgent.indexOf('MSIE ') > -1 || window.navigato
       ],
       unprotectedResources: [],
       protectedResourceMap: [
-        ['http://localhost:8080', ['api://1811ada6-dd81-4e22-a4fa-fe68ba1500db/Read']]
+        ['https://api-weightmonitor.azurewebsites.net', ['api://1811ada6-dd81-4e22-a4fa-fe68ba1500db/Read']]
       ],
       extraQueryParameters: {}
     })
