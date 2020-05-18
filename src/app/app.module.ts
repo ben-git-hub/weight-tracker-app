@@ -22,7 +22,7 @@ const isIE = window.navigator.userAgent.indexOf('MSIE ') > -1 || window.navigato
       auth: {
         clientId: '9e02ccd9-4074-4826-9e93-225831dbe8d5',
         authority: 'https://login.microsoftonline.com/2b5b291f-0c4f-4c04-bdb7-1f60e9b4b950',
-        redirectUri: 'http://localhost:4200',
+        redirectUri: 'https://ben-git-hub.github.io/weight-tracker-app/',
       },
       cache: {
         cacheLocation: 'sessionStorage',
